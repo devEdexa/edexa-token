@@ -1,7 +1,6 @@
 require("@nomiclabs/hardhat-ethers");
 require("dotenv").config();
 const { createAlchemyWeb3 } = require("@alch/alchemy-web3");
-// const ALCHEMY_API_KEY = "qlVE3s_fr24167eFapgGnbbFNPX0PyxL";
 const { task } = require("hardhat/config");
 const {
   API_URL_ETHEREUM,
