@@ -6,7 +6,7 @@ Token Name: edeXa
 
 Token Symbol: EDX
 
-Total Supply: 10,000,000,000 EDX
+Total Supply: Max Supply 10,000,000,000 EDX. Circulating supply may change due to mint/burn functionality. 
 
 Decimals: 18
 
@@ -14,6 +14,9 @@ Decimals: 18
 The smart contract for the edeXa ERC-20 Token is implemented in Solidity programming language. The contract follows the ERC-20 standard, which defines a set of functions and events that allow for seamless integration with various wallets, exchanges, and other smart contracts.
 
 The main contract file is edeXa.sol. It contains the implementation of the token contract, including functions for transferring tokens, checking balances, and managing approvals. The contract also includes additional features such as pausing and burning tokens.
+
+# Token Supply
+The Maximum supply of our token is initially set to 10 billion. However, please note that the curent supply of the token may be subject to change. The token contract includes the functionality to adjust the current supply if necessary, ensuring flexibility and adaptability. Any changes to the total supply will be communicated transparently and in accordance with the token's governance framework. It is important to consult the latest updates and official communications to stay informed about any adjustments made to the current supply.
 
 # Deployment
 The edeXa ERC-20 Token smart contract can be deployed on the Ethereum blockchain using tools such as Remix, Truffle, or Hardhat. Before deployment, ensure you have the necessary dependencies installed and a compatible Ethereum development environment set up.
