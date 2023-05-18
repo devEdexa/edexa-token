@@ -31,6 +31,9 @@ import "@openzeppelin/contracts/security/Pausable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract edeXa is ERC20, ERC20Burnable, Pausable, Ownable {
+    
+    uint256 public constant MAX_SUPPLY = 10_000_000_000 * 10**18; // Maximum supply: 10 billion tokens
+
     constructor() ERC20("edeXa", "EDX") {}
 
     function pause() public onlyOwner {
@@ -42,6 +45,7 @@ contract edeXa is ERC20, ERC20Burnable, Pausable, Ownable {
     }
 
     function mint(address to, uint256 amount) public onlyOwner {
+        require(totalSupply() + amount <= MAX_SUPPLY, "Exceeds maximum supply of 10 billion");
         _mint(to, amount);
     }
 
