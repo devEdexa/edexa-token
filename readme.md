@@ -1,5 +1,5 @@
 # edeXa ERC-20 Token
-Welcome to the edeXa ERC-20 Token repository! This repository contains the smart contract and related resources for the edeXa company's ERC-20 token. The edeXa token is built on the Ethereum blockchain and follows the ERC-20 token standard.
+Welcome to the edeXa ERC-20 Token repository! This repository contains the smart contract and related resources for the edeXa company's ERC-20 token. The edeXa token is built on the EVM blockchain and follows the ERC-20 token standard.
 
 # ERC-20 Token Details
 Token Name: edeXa
