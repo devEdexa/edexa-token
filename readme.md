@@ -34,11 +34,8 @@ Deploy the contract: Trigger the deployment process using your development tool.
 # Token Usage
 The edeXa ERC-20 Token is designed to serve as a utility token within the edeXa ecosystem. Token holders can use EDX tokens for various purposes, including:
 
-# Payment for services and products within the edeXa platform.
-Participation in staking and governance activities.
-Incentives and rewards for platform users and contributors.
-Exchange and trading on supported cryptocurrency exchanges.
-Please note that the edeXa ERC-20 Token is not intended to be used as an investment or security. The value of the token may fluctuate based on market conditions and demand.
+# Reward system with edeXa Public Blockchain
+The edeXa Business Blockchain network has implemented a unique rewards system to incentivize participation from Businesses to secure edeXa Public Blockchain. Unlike other blockchain projects, we do not rely on a proof of stake model. Instead, we use a PoA consensus mechanism to verify transactions on the network and add blocks to edeXa Public Blockchain.  Businesses which are a part of our validation network, can earn rewards in the form of EDX tokens.
 
 # Resources
 edeXa.sol: The main smart contract file containing the implementation of the edeXa ERC-20 Token.
